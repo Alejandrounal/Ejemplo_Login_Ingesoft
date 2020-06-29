@@ -18,8 +18,7 @@ import javax.persistence.Query;
  */
 public class UsuarioDAO {
     
-    private static EntityManagerFactory
-            emf = Persistence.createEntityManagerFactory("Login_G_mez_SuarezPU");
+    private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("Login_G_mez_SuarezPU");
 
     public void crear(Usuario object) {
 
